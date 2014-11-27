@@ -113,6 +113,15 @@ hr {
 		opacity: 0.8;
 	}
 
+.left-paragraph {
+	float: left;
+	width:50%; text-align: center;
+}
+
+.right-paragraph {
+	float: right;
+	width:50%; text-align: center;
+}
 
 /****************************************************************/
 ul {

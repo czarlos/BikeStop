@@ -27,27 +27,34 @@
 		<div id="wrapper">
 
 			<ul id="topbar">
-				<li class="items"><a href="#">Bicycles</a></li>
+				<li class="items"><a href="index.html">Home</a></li>
+				<li class="items"><a href="buy.html">Bicycles</a></li>
 				<li class="items"><a href="components.html">Components</a></li>
 				<li class="items"><a href="#">Selection</a></li>
 			</ul>
 			
 			<div>
 				<div class="gallery">
-					<img src="img/trek.png">
-					<img src="img/cervelo.png">
+					<img src="img/trek.png" id="trek">
+					<img src="img/cervelo.png" id="cervelo">
+					<div style="width:100%">
+						<div class="left-paragraph">
+							<p hidden id="trek-paragraph">
+							  This is a paragraph about the Trek bike!
+							</p>
+						</div>
+						<div class="right-paragraph">
+							<p hidden id="cervelo-paragraph">
+								This is a paragraph about the Cervelo bike!
+							</p>
+						</div>
+
+					</div>
 				</div>
 				<div class="gallery">
-					<img src="img/touring.png">
-					<img src="img/trek.png">
+					<img src="img/touring.png" id="touring">
+					<img src="img/trek.png" id="money">
 				</div>
-				<button id="hello">Toggle</button>
-
-				<p hidden id="test">
-				  This is the paragraph to end all paragraphs.  You
-				  should feel <em>lucky</em> to have seen such a paragraph in
-				  your life.  Congratulations!
-				</p>
 			</div>
 		
 		</div>
