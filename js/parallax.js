@@ -67,7 +67,7 @@ $(document).ready(function() {
 	$('body div').hide();
 
 	$('body, div').each(function(i) {
-		$(this).delay((i++) * 250).fadeTo(900, 1);
+		$(this).delay((i++) * 250).fadeTo(800, 1);
 	});
 
     $("a").click(function(event){
