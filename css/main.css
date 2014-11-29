@@ -31,6 +31,24 @@ table {
 	border-spacing: 0;
 }
 
+/* Pages
+*****************************************************************/
+
+#landing {
+    height: 100%;
+}
+#browse {
+    height: 3400px;
+}
+
+#shimano {
+    height: 4000px;
+}
+
+#sram {
+    height: 4000px;
+}
+
 /* Extended base styles (site specific)
 *****************************************************************/
 
@@ -148,6 +166,11 @@ ul {
     margin-left: auto;
     margin-right: auto;
 }
+
+.individual-item {
+    width: 100%;
+}
+
 /* Parralax-ish
 *****************************************************************/
 
