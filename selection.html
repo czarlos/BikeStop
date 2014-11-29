@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Selection</title>
+    <title>Styles</title>
     <meta charset="utf-8" />
     <meta name="description" content="A site devoted to learning about bicycles" />
     <link rel="stylesheet" media="all" href="css/main.css" />
@@ -10,67 +10,47 @@
     <script src="js/parallax.js"></script>
 </head>
 
-<body style="height: 100%;">
+<body>
 
 <div id="wrapper">
 
     <ul id="topbar">
         <li class="items"><a href="index.html">Home</a></li>
-        <li class="items"><a href="buy.html">Bicycles</a></li>
+        <li class="items"><a href="selection.html">Styles</a></li>
         <li class="items"><a href="sram.html">SRAM</a></li>
         <li class="items"><a href="shimano.html">Shimano</a></li>
-        <li class="items"><a href="selection.html#">Selection</a></li>
+        <li class="items"><a href="buy.html">Browse</a></li>
     </ul>
 
-    <div style="width: 100%; ">
-        <div class="selection">
-            <h1>Overview</h1>
-            <p>
-                Choosing a bike that suits you can be a daunting task for new and seasoned riders alike.
-                However, selecting a bicycle can be made easier by determining what type of riding you're
-                interested in doing, the price range you're looking at, and the level of riding that you
-                are currently at. With this information, selection of your next bike can be narrowed down
-                to just a few options.<br>
-            </p>
-            <h1>The Right Type of Bike</h1>
-            <p>
-                The first step in determining what bike to buy is figuring out what type of riding you will
-                predominantly be doing, whether that be road racing, triathlons, or bike touring. Those interested
-                in competing against others in races spanning from 20-100 miles will likely be geared towards road
-                racing bikes. Anyone interested in biking similar distances for exercise purposes may also be
-                interested in road racing bikes. Alternatively, those interested in participating and training for
-                triathlons for leisure or at a competitive level may be more inclined to purchase a triathlon bike.
-                However those interested in both road racing and triathlons should lean more towards road racing bikes
-                as they can easily be used for triathlons while the opposite is not true. Riders who are not interested
-                in racing in any capacity, but are interested in travelling long distances and carrying their gear while
-                while they do so, or commuters who need a reliable way to get to work, a touring bike may be the best
-                option available.
-            </p>
-            <h1>Determining Your Level</h1>
-            <p>
-                Figuring out what level you currently ride at is extremely important in making decisions that are
-                financially sound and practical when it comes to choosing the right bike. Are you just getting into
-                biking or are you a ten year veteran to the sport? Do you riding professionally or semi-professionally
-                in a racing capacity? Is biking your main hobby or a side interest? Are you a triathlete or a road racer?
-                All of these questions factor heavily into deciding what type of bike to buy. There are many questions
-                that could be asked to help determine what level you are at as a rider. However the two most important
-                considerations to be had are: what level cyclist are you (beginner, intermediate, or advanced), and how
-                often/interested are you in cycling.
-            </p>
-            <h1>Selecting Components</h1>
-            <p>
-                Component selection is highly dependant on the level you are riding at and the type of riding that
-                you are interested in doing. Newer cyclists, commuters, and other entry level riders will likely look
-                at Shimano Tiagra components, while mid-level riders will look at Shimano 105/Ultegra or SRAM Apex/Force
-                components. High level cyclists and racers who need the highest level of performance for durability
-                or speed, will want to look at Shimano Dura-Ace or SRAM Red component sets. To help determine which
-                component set is right for you, check out the <a href="sram.html">SRAM</a> component guide or the
-                <a href="shimano.html">Shimano</a> component guide.
-            </p>
-            <h1>Making a Purchase</h1>
-            <p>Some More</p>
-        </div>
+    <div id="content">
+        <article id="item-one">
+            <header>
+                <h1>Triathlon Bikes</h1>
+            </header>
+            <p>Triathlon Bikes are some of the flashiest road bikes available on the market. Triathlon bikes are specially designed to be optimal for the second (cycling) stage of a triathlon. Their aerodynamic riding position places the rider in an optimal position for resting and biking at the same time while providing the best aerodynamics for the rider. Triathlon bikes are not as well suited for traditional road races as they provide significantly less control than traditional road racing bikes, a nessesity in most road races.</p>
+        </article>
 
+        <article id="item-two">
+            <header>
+                <h1>Racing Bikes</h1>
+            </header>
+            <p>The traditional road racing bike provides optimal control, light weight, and versatility. Road racing bikes are designed to put speed and control before all else, often sacraficing comfort and feel to achieve this goal. If you plan to compete in road bike races, or are looking for a great way to get a work out, a traditional road racing bike could be a perfect fit for you.</p>
+        </article>
+
+        <article id="item-three">
+            <header>
+                <h1>Touring Bikes</h1>
+            </header>
+            <p>Touring bikes are a category of their own, they are drastically different than road and triathlon bikes as they strive to achieve a good balance of speed, versatility, comfort, feel, and durability. In a nutshell, touring bikes are designed to be ridden long distances so much of the focus of many bikes is on the comfort and durability so as to allow riders to persist in rough conditions and for long periods of time.
+            </p>
+        </article>
+
+    </div>
+
+    <div id="parallax-bg3">
+        <img id="bg3-1" src="img/cervelo.png" width="800" height="520" alt="Triathlon Bike"/>
+        <img id="bg3-2" src="img/trek.png" width="800" height="481" alt="Road Bike"/>
+        <img id="bg3-3" src="img/touring.png" width="800" height="520" alt="Touring Bike"/>
     </div>
 
 </div>

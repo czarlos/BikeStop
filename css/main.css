@@ -68,13 +68,13 @@ p {
 
 .gallery {
 	overflow: hidden;
-	float: center;
-    display: table;
-    margin: 0 auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 	}
 	.gallery img {
 	  display:inline-block;
-	  width: 650px;
+	  width: 45%;
 	  max-width: 100%;
 	  height: auto;
 	  padding: 20px;
@@ -85,16 +85,25 @@ p {
 
 .left-paragraph {
 	float: left;
-	width:50%; 
-	text-align: center;
-}
+	width: 50%;
+	/*text-align: center;*/
+    }
+    .left-paragraph p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
 
 .right-paragraph {
 	float: right;
-	width:50%; 
-	text-align: center;
-}
-
+	width: 50%;
+	/*text-align: center;*/
+    }
+    .right-paragraph p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
 .section-header {
 	font-size: 300%;
 	padding-top: 40px;
@@ -135,11 +144,9 @@ ul {
 }
 
 .selection {
-    /*text-align: center;*/
     width: 50%;
-    /*float: left;*/
-    /*margin-left: 100px;*/
-    /*margin-top: 50px;*/
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Parralax-ish
 *****************************************************************/
