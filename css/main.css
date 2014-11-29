@@ -134,6 +134,13 @@ ul {
 	position: relative;
 }
 
+.selection {
+    /*text-align: center;*/
+    width: 50%;
+    /*float: left;*/
+    /*margin-left: 100px;*/
+    /*margin-top: 50px;*/
+}
 /* Parralax-ish
 *****************************************************************/
 
