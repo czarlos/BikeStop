@@ -4,55 +4,6 @@ $(document).ready(function() {
     $(window).bind('scroll',function(e){
     	parallaxScroll();
     });
-    
-	/* Next/prev and primary nav btn click handlers */
-	$('a.manned-flight').click(function(){
-    	$('html, body').animate({
-    		scrollTop:0
-    	}, 1000, function() {
-	    	parallaxScroll(); // Callback is required for iOS
-		});
-    	return false;
-	});
-    $('a.frameless-parachute').click(function(){
-    	$('html, body').animate({
-    		scrollTop:$('#frameless-parachute').offset().top
-    	}, 1000, function() {
-	    	parallaxScroll(); // Callback is required for iOS
-		});
-    	return false;
-    });
-    $('a.english-channel').click(function(){
-    	$('html, body').animate({
-    		scrollTop:$('#english-channel').offset().top
-    	}, 1000, function() {
-	    	parallaxScroll(); // Callback is required for iOS
-		});
-    	return false;
-    });
-	$('a.about').click(function(){
-    	$('html, body').animate({
-    		scrollTop:$('#about').offset().top
-    	}, 1000, function() {
-	    	parallaxScroll(); // Callback is required for iOS
-		});
-    	return false;
-    });
-    
-    /* Show/hide dot lav labels on hover */
-    $('nav#primary a').hover(
-    	function () {
-			$(this).prev('h1').show();
-		},
-		function () {
-			$(this).prev('h1').hide();
-		}
-    );
-
-
-    $(".gallery").hover(function() {
-    	console.log("HASDKL");
-    });
 
  	$(".gallery").click(function(event){
 
